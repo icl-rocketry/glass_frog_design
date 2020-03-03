@@ -66,7 +66,7 @@ The Glass Frog is a small high-powered rocket designed to showcase the capabilit
 
 In particular, the idea is to develop a small L1 scale rocket that has an organic, generatively designed airframe. It is to be 3D printed, with some laser cut parts where appropriate. It should be able to handle all the major load cases of a typical flight, carrying a small electronics payload and camera, launched in a conventional manner using a launch rail, and be recovered using a standard single deployment mechanism. 
 
-In this document, my concept of this rocket is presented, and the input loads on the rocket are also calculated. 
+In this document, my concept of this rocket is presented, and the input loads on the rocket are also calculated. This documentation and all the relevant scripts can be found in the Github repository for this work: \url{https://github.com/icl-rocketry/glass_frog_design}
 
 \section{Concept}
 
@@ -187,7 +187,7 @@ where
 \eqnalign{
 C_{N1} & \quad \text{ is the lift force coefficient on a single fin}\\
 C_{N\alpha1} &\equiv \frac{dC_{N1}}{d\alpha} \approx \frac{C_{N1}}{\alpha}  \quad \text{ is the lift force coefficient slope on a single fin}\\
-\beta &=\sqrt{1-M_\infty^2} \quad {is the Prandtl-Glauert compressibility correction}\\
+\beta &=\sqrt{1-M_\infty^2} \quad \text{is the Prandtl-Glauert compressibility correction}\\
 M_\infty & \quad \text{is the free stream mach number}\\
 K &= 1 + \frac{1}{\tau} \quad \text{ is the fin-body interference correction}\\
 \tau &= \frac{b + r_t}{r_t} \quad \text{ is the relative size of the fins}\\

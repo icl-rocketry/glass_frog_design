@@ -15,7 +15,7 @@ class Fin:
         self.c_r = root_chord
         self.c_t = tip_chord
         self.b = span
-        self.r_t = tube_diameter
+        self.r_t = tube_diameter/2
         self.gamma_c = mid_chord_sweep
 
         self.sonic_speed = 340*ureg.m/ureg.s #assumed constant
